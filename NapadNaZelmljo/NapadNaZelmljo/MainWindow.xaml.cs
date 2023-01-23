@@ -39,6 +39,7 @@ namespace NapadNaZelmljo
             AnimirajSovražnika(sovražnik, 0, (int)(IgralniDel.ActualWidth - 100), "(Canvas.Left)");
             int višina = (int)(IgralniDel.ActualHeight - 100);
             AnimirajSovražnika(sovražnik, r.Next(višina), r.Next(višina), "(Canvas.Top)");
+            IgralniDel.Children.Add(sovražnik);
         }
 
         private void AnimirajSovražnika(ContentControl sovražnik, int v1, int v2, string v3)
