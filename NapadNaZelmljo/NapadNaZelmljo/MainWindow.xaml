@@ -5,19 +5,63 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NapadNaZelmljo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Napad na zemljo" Height="800" Width="1000">
+    <Window.Resources>
+        <ControlTemplate x:Key="predlogaSovražnika" TargetType="{x:Type ContentControl}">
+            <Grid>
+                <Ellipse HorizontalAlignment="Center" Height="100" Margin="0,3,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="Red"/>
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="120"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="120"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="120"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Napad na zemljo" VerticalAlignment="Center" FontSize="24" Width="203"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Napad na zemljo" VerticalAlignment="Center" FontSize="32" Width="264" FontFamily="Bauhaus 93"/>
+        <Button x:Name="btnStart" Content="Start" Grid.Row="2" Margin="10,32,10,31" Height="55" FontFamily="Cascadia Code SemiBold" Click="btnStart_Click"/>
+        <ProgressBar x:Name="prgIgra" Grid.Column="1" Grid.Row="2" Height="20"/>
+        <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2">
+            <TextBlock TextWrapping="Wrap" Text="Izojibaj se"/>
+            <ContentControl Template="{DynamicResource predlogaSovražnika}" Content="ContentControl" Height="103" Width="118"/>
+        </StackPanel>
+        <Canvas x:Name="IgralniDel" Grid.Row="1" Grid.ColumnSpan="3">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1DE8E3" Offset="0.933"/>
+                    <GradientStop Color="#FFA4F105" Offset="0"/>
+                    <GradientStop Color="#FF5AEDD5" Offset="0.523"/>
+                    <GradientStop Color="#FFE81D55" Offset="0.93"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+            <StackPanel x:Name="človek" Canvas.Left="10" Canvas.Top="10">
+                <Ellipse Fill="White" Height="10" Width="10"/>
+                <Rectangle Fill="White" Height="25" Width="10"/>
+            </StackPanel>
+            <Rectangle Height="89" Canvas.Left="443" Stroke="Black" Canvas.Top="353" Width="88" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="45"/>
+                        <TranslateTransform X="45"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Canvas.Left="433" TextWrapping="Wrap" Text="Konec igre" Canvas.Top="59" Foreground="White" FontFamily="Algerian" HorizontalAlignment="Left" VerticalAlignment="Top" Width="242" FontSize="32"/>
+        </Canvas>
 
     </Grid>
 </Window>
