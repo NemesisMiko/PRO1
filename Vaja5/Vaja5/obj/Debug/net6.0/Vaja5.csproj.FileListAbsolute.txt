@@ -1,0 +1,15 @@
+D:\PRO1\Vaja5\Vaja5\bin\Debug\net6.0\Vaja5.exe
+D:\PRO1\Vaja5\Vaja5\bin\Debug\net6.0\Vaja5.deps.json
+D:\PRO1\Vaja5\Vaja5\bin\Debug\net6.0\Vaja5.runtimeconfig.json
+D:\PRO1\Vaja5\Vaja5\bin\Debug\net6.0\Vaja5.dll
+D:\PRO1\Vaja5\Vaja5\bin\Debug\net6.0\Vaja5.pdb
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.csproj.AssemblyReference.cache
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.AssemblyInfoInputs.cache
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.AssemblyInfo.cs
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.csproj.CoreCompileInputs.cache
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.dll
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\refint\Vaja5.dll
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.pdb
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\Vaja5.genruntimeconfig.cache
+D:\PRO1\Vaja5\Vaja5\obj\Debug\net6.0\ref\Vaja5.dll

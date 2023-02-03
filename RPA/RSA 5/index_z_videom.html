@@ -1,0 +1,842 @@
+﻿<!DOCTYPE html> <!-- HTML5 -->
+
+<html lang = "sl">
+	<head>
+	
+		<!-- TITLE -->
+		<title>5.BR</title>
+		<meta property = "og:title" content ="4.BR">
+		<meta property = "twitter:title" content ="4.BR">
+			
+		<!-- DESCRIPTION -->
+		<meta name = "description" content = "Odzivna spletna stran">
+		<meta property = "og:description" content = "Odzivna spletna stran">
+		<meta property = "twitter:description" content = "Odzivna spletna stran">
+			
+		<meta name = "author" content = "4.BR">
+			
+		<!-- FAV ICON -->
+		<link rel = "shortcut icon" href= "img/favicon.ico" type="image/x-icon">
+		<meta property = "og:image" content = "img/logo.png">
+		<meta property = "twitter:image" content = "img/logo.png">
+			
+		<!-- URL -->
+		<meta property = "og:url" content = "">
+		<meta property = "twitter:url" content = "">
+		
+		<!-- TYPE -->
+		<meta property = "og:type" content = "website">
+		<meta property = "twitter:type" content = "website">
+			
+		<!-- TWITTER CARD -->
+		<meta name = "twitter:card" content = "summary">
+			
+		<!-- VIEWPORT -->
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		
+		<!--------------------/ VSE CSS DATOTEKE (CSS Source Files)/-------------------->
+		
+		<!-- Latest compiled and minified BS4 CSS from CDN (Content Delivery Network)-->
+		<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	
+		<!--Ostale CSS datoteke/knjižnice za različne animacijske učinke -->
+		<link rel = "stylesheet" href = "css/arrow.css"><!-- Za puščico, ki poskakuje na začetnem zaslonu in kaže navzdol-->
+		<link rel = "stylesheet" href = "css/animate.css"><!-- Datoteka/knjižnica v kateri so spisane različne CSS animacije-->
+		<link rel = "stylesheet" href = "css/waypoints.css"><!-- Za zakasnitev animacij, ko se pomikamo navzdol po spletni strani => sprožilec animacij na 70% (once the screen scrolls down to 70%) -->
+		<link rel = "stylesheet" href = "css/lightbox.css"><!-- Za galerijo slik v sekciji PORTFOLIO-->
+		<link rel = "stylesheet" href = "css/owl.carousel.css"><!-- Za "vrtiljak" v sekciji MEET THE TEAM in sekciji OUR CLIENTS-->
+		<link rel = "stylesheet" href = "css/owl.theme.default.css"><!-- Za "vrtiljak" v sekciji MEET THE TEAM in sekciji OUR CLIENTS-->
+		<link rel = "stylesheet" href = "css/fixed.css"><!-- Poskrbi, da slike v ozadju ostanje fiksne oz. pri miru v mobilnem pogledu za iPhones (iOS)-->
+		
+		<!--Naša CSS datoteka-->
+		<link rel = "stylesheet" href = "style.css">
+		
+		<!---------------/ END OF VSE CSS DATOTEKE (CSS Source Files)/------------------->
+		
+	</head>
+
+	<body data-spy = "scroll" data-target = "#nav">
+		
+		<!-- NAVIGACIJA -->
+		
+		<!-- Logotip in nav vrstici-->
+		<nav class = "navbar navbar-expand-lg fixed-top">
+			<div class = "container-fluid">
+				<a href = "#home" class = "navbar-brand">
+					<img src = "img/logo.png">
+				</a>
+				
+				<!-- Hamburger icon -->
+				<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#nav">
+					<span class = "custom-toggler-icon">
+						<i class="fas fa-bars"></i>
+					</span>
+				</button>
+				
+				<!-- Navigacijska vrstica -->
+				<div class = "collapse navbar-collapse" id = "nav">
+					<ul class = "navbar-nav ml-auto">
+						<li class = "nav-item">
+							<a href = "#home" class = "nav-link">home</a>
+						</li>
+						<li class = "nav-item">
+							<a href = "#features" class = "nav-link">features</a>
+						</li>
+						<li class = "nav-item">
+							<a href = "#portfolio" class = "nav-link">portfolio</a>
+						</li>
+						<li class = "nav-item">
+							<a href = "#pricing" class = "nav-link">pricing</a>
+						</li>
+						
+						<li class = "nav-item">
+							<a href = "#skills" class = "nav-link">skills</a>
+						</li>
+						<li class = "nav-item">
+							<a href = "#clients" class = "nav-link">clients</a>
+						</li>
+						<li class = "nav-item">
+							<a href = "#contact" class = "nav-link">contact</a>
+						</li>
+					</ul>
+				
+				</div>
+				
+			</div>
+		</nav>
+
+		<!-- END OF NAVIGACIJA -->
+		
+		<!-- ********** ZAKOMENTIRAJ PREJŠNJO KODO OD TU DALJE ********** -->
+		
+		<!--------------/ HOME SEKCIJA Z IMAGE SLIDER V OZADJU /-------------->
+		 <div id = "home">
+			
+			<div id="indikatorji" class = "carousel slide" data-ride = "carousel" data-interval = "10000"> 
+			<ol class = "carousel-indicators">
+				<li data-target = "#indikatorji" data-slide-to="0" class ="active"></li>
+				<li data-target = "#indikatorji" data-slide-to="1"></li>
+				
+			</ol>
+			
+			<div class = "carousel-inner" role="listbox">
+			
+				<div class = "carousel-item active" style = "background-image:url('img/home/computers1.png')">
+				
+					<div class = "carousel-caption text-center">
+						<div class = "os-animation" data-animation = "bounceInUp" data-delay = "0.6s">
+							<h1> Vaja 5.BR</h1>
+						</div>
+                        
+						<div class="row">
+                            <div class="col-md-4 col-sm-6"></div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class = "os-animation" data-animation = "bounceInUp" data-delay = "1s">
+							         <a href = "#features" class = "btn btn-outline-light btn-lg"> Get started </a>
+						              </div>
+                                </div>
+                        
+                        
+                            <div class="col-md-4 col-sm-6">
+                                <div class = "os-animation" data-animation = "bounceInUp" data-delay = "1s">
+                                    <a href = "#features" class = "btn btn-outline-light btn-lg"> Get started </a>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-4 col-sm-6">
+                                <div class = "os-animation" data-animation = "bounceInUp" data-delay = "1s">
+                                    <a href = "#features" class = "btn btn-outline-light btn-lg"> Get started </a>
+                                </div>
+                            
+                            </div>
+                            <div class="col-md-4 col-sm-6"></div>
+                        </div>
+                        </div>
+					</div>
+				
+				</div>
+				
+				<div class = "carousel-item">
+                    <div class="video-background">
+				        <div class="video-wrap">
+					       <div id="video">
+						      <video id="bgvid" playsinline autoplay muted loop>
+							     <source src="img/home/video.mp4" type="video/mp4">
+						      </video>
+					       </div> <!--- End Video ID -->
+				        </div> <!--- End Video Wrap -->
+			         </div>
+				</div>
+				
+				
+			
+			</div> <!--End Carousel Inner-->
+			
+			<!-- Puščici NEXT in PREV -->
+			
+			<a href = "#indikatorji" class = "carousel-control-next" role = "button" data-slide ="next">
+				<span class = "carousel-control-next-icon">
+				</span>
+				<span class = "sr-only"> Next </span>
+			</a>
+			
+			<a href = "#indikatorji" class = "carousel-control-prev" role = "button" data-slide ="prev">
+				<span class = "carousel-control-prev-icon">
+				</span>
+				<span class = "sr-only"> Previous </span>
+			</a>
+			 
+		 </div>
+		</div>
+		
+		<!-- ********** KONEC ZAKOMENTIRANE KODE NA RAČUN VIDEA V OZADJU ********** -->
+		
+		<!--------------/ End of Home Section (Začetni zaslon => image slider) /------------->
+		
+		
+		<!-- ********** DODANA NOVA KODA ZA VIDEO V OZADJU ********** -->
+		
+		<!--------------/ HOME SEKCIJA Z VIDEOM V OZADJU /-------------->
+		<!--div id ="home">
+		<!--- Video Background -->
+			<!--div class="video-background">
+				<div class="video-wrap">
+					<div id="video">
+						<video id="bgvid" playsinline autoplay muted loop>
+							<source src="fast-typing.mp4" type="video/mp4">
+						</video>
+					</div> <!--- End Video ID -->
+				<!--/div> <!--- End Video Wrap -->
+			<!--/div> <!--- End Video Background -->
+
+			<!-- Start Landing Page Caption -->
+			<!--div class="caption text-center text-light text-uppercase">
+
+				<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Welcome to <span class="text-nuno">4.BR</span></h1>
+				<h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">The best class on STŠ</h3>
+				<a href="#features" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Get Started</a>
+
+			</div>
+			<!-- End Landing Page Caption -->
+
+			<!-- Start Bouncing Down Arrow -->
+			<!--a href="#features" class="down-arrow text-center">
+				<div class="arrow bounce d-none d-md-block">
+					<i class="fas fa-angle-down"></i>
+				</div>
+			</a>
+			<!-- End Bouncing Down Arrow -->
+
+		<!--/div>
+		<!--------------/ END OF HOME SEKCIJA Z VIDEOM V OZADJU /-------------->
+		
+		<!-- ********** KONEC DODANE KODE ZARADI VIDEA V OZADJU ********** -->
+		
+		
+		<!---------------------------/ Start Features Section /----------------------------->
+		<div id = "features" class = "offset" >
+		
+			<div class = "jumbotron">
+				
+				<div class ="os-animation" data-animation = "fadeInUp">
+					<h3 class = "heading"> Features </h3>
+					<div class = "heading-underline">
+					</div>
+				</div><!--End of animation heading-->
+				
+				<!--Features Columns-->
+				<div class = "row">
+				
+					<!--PRVA IKONA-->
+					<div class = "col-md-3 col-sm-6">
+						<div class = "os-animation" data-animation = "fadeInRight">
+							<div class = "feature">
+								<span class = "fa-layers fa-4x">
+									<i class = "fa fa-circle"></i>
+									<i class = "fas fa-mobile-alt fa-inverse" data-fa-transform ="shrink-6"></i>
+								</span>
+								<h3>Mobile Friendly</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!-- DRUGA IKONA-->
+					<div class = "col-md-3 col-sm-6">
+						<div class = "os-animation" data-animation = "fadeInRight" data-delay = "0.4s">
+							<div class = "feature">
+								<span class = "fa-layers fa-4x">
+									<i class = "fa fa-circle"></i>
+									<i class = "fas fa-desktop fa-inverse" data-fa-transform ="shrink-8 left-1"></i>
+								</span>
+								<h3>Full Screen Landing</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!-- TRETJA IKONA-->
+					<div class = "col-md-3 col-sm-6">
+						<div class = "os-animation" data-animation = "fadeInRight" data-delay = "0.6s">
+							<div class = "feature">
+								<span class = "fa-layers fa-4x">
+									<i class = "fa fa-circle"></i>
+									<i class = "fas fa-play fa-inverse" data-fa-transform ="shrink-8 right-0.5"></i>
+								</span>
+								<h3>Custom Animation</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!-- ČETRTA IKONA-->
+					<div class = "col-md-3 col-sm-6">
+						<div class = "os-animation" data-animation = "fadeInRight" data-delay = "0.8s">
+							<div class = "feature">
+								<span class = "fa-layers fa-4x">
+									<i class = "fa fa-circle"></i>
+									<i class = "fas fa-angle-double-down fa-inverse" data-fa-transform ="shrink-6"></i>
+								</span>
+								<h3>Parallax Scrolling</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+							
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		
+	<!--- Start Fixed Background IMG Dark -->
+	<div class="fixed-background">
+
+		<div class="row dark">
+			<div class ="col-12 os-animation" data-animation = "fadeInUp">
+				<h3 class = "heading"> Built With Care </h3>
+				<div class = "heading-underline">
+				</div>
+			</div><!--End of animation heading-->
+			
+			<div class = "col-md-3">
+				<div class = "os-animation" data-animation ="fadeInLeft" data-delay = "0.8s">
+				<h3>HTML 5</h3>
+				<div class = "feature">
+					<span class = "fa-layers fa-3x">
+					<i class="fas fa-code"></i>
+					</span>
+				</div>
+				<p class = "lead"> Built with the latest HTML 5</p>
+				</div>
+			</div>
+			
+			<div class = "col-md-3">
+				<div class = "os-animation" data-animation ="fadeInLeft" data-delay = "0.6s">
+				<h3>CSS 3</h3>
+				<div class = "feature">
+					<span class = "fa-layers fa-3x">
+					<i class="fab fa-css3"></i>
+					</span>
+				</div>
+				<p class = "lead"> Built with the latest CSS 3</p>
+				</div>
+			</div>
+			
+			<div class = "col-md-3">
+				<div class = "os-animation" data-animation ="fadeInLeft" data-delay = "0.4s">
+				<h3>BS 4</h3>
+				<div class = "feature">
+					<span class = "fa-layers fa-3x">
+					<i class="fab fa-bootstrap"></i>
+					</span>
+				</div>
+				<p class = "lead"> Built with the latest BS 4</p>
+				</div>
+			</div>
+            
+            <div class = "col-md-3">
+				<div class = "os-animation" data-animation ="fadeInLeft">
+				<h3>BS 4</h3>
+				<div class = "feature">
+					<span class = "fa-layers fa-3x">
+					<i class="fab fa-php"></i>
+					</span>
+				</div>
+				<p class = "lead"> Built with the latest PHP 7</p>
+				</div>
+			</div>
+		
+		</div> <!--- End of Row Dark -->
+		
+		
+		<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+		</div>
+
+	</div> <!--- End Fixed Background IMG Dark -->
+</div>
+		<!---------------------------/ End of Features Section /---------------------------->
+
+
+		<!---------------------------/ Start Portfolio Section /---------------------------->
+		<div id = "portfolio" class = "offset" >
+			<div class = "row padding">
+				<div class ="col-12 os-animation" data-animation = "fadeInUp">
+					<h3 class = "heading"> Portfolio </h3>
+					<div class = "heading-underline">
+					</div>
+				</div><!--End of animation heading-->
+			</div>
+			
+			<div class = "container-fluid dodan">
+				<div class = "row no-padding">
+				
+					<!--1. slika-->
+					<div class = "col-md-2 col-sm-6">
+						<div class ="os-animation" data-animation = "bounceInLeft">
+							<div class = "portfolio-item">
+								<a href = "img/portfolio/1.png" data-lightbox = "example-set" data-title ="Opis slike">
+									<img src = "img/portfolio/1.png" class = "example-image" alt = "" title ="">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!--2. slika-->
+					<div class = "col-md-2 col-sm-6">
+						<div class ="os-animation" data-animation = "bounceInLeft">
+							<div class = "portfolio-item">
+								<a href = "img/portfolio/2.png" data-lightbox = "example-set" data-title ="Opis slike">
+									<img src = "img/portfolio/2.png" class = "example-image" alt = "" title ="">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!--3. slika-->
+					<div class = "col-md-2 col-sm-6">
+						<div class ="os-animation" data-animation = "bounceInLeft">
+							<div class = "portfolio-item">
+								<a href = "img/portfolio/3.png" data-lightbox = "example-set" data-title ="Opis slike">
+									<img src = "img/portfolio/3.png" class = "example-image" alt = "" title ="">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!--4. slika-->
+					<div class = "col-md-2 col-sm-6">
+						<div class ="os-animation" data-animation = "bounceInRight">
+							<div class = "portfolio-item">
+								<a href = "img/portfolio/4.png" data-lightbox = "example-set" data-title ="Opis slike">
+									<img src = "img/portfolio/4.png" class = "example-image" alt = "" title ="">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!--5. slika-->
+					<div class = "col-md-2 col-sm-6">
+						<div class ="os-animation" data-animation = "bounceInRight">
+							<div class = "portfolio-item">
+								<a href = "img/portfolio/5.png" data-lightbox = "example-set" data-title ="Opis slike">
+									<img src = "img/portfolio/5.png" class = "example-image" alt = "" title ="">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!--6. slika-->
+					<div class = "col-md-2 col-sm-6">
+						<div class ="os-animation" data-animation = "bounceInRight">
+							<div class = "portfolio-item">
+								<a href = "img/portfolio/6.png" data-lightbox = "example-set" data-title ="Opis slike">
+									<img src = "img/portfolio/6.png" class = "example-image" alt = "" title ="">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+			
+			
+		</div>
+		
+	
+		<!---------------------------/ End of Portfolio Section /--------------------------->
+
+
+
+
+		<!-----------------------------/ Start Pricing Section /----------------------------->
+		<div id = "pricing" class = "offset" >
+			<div class = "jumbotron">
+			<div class = "narrow">
+				<div class ="os-animation" data-animation = "fadeInUp">
+					<h3 class = "heading"> Pricing </h3>
+					<div class = "heading-underline">
+					</div>
+				</div><!--End of animation heading-->
+				
+				<div class = "row justify-content-md-center">
+					
+					<!-- PRVI PANEL-->
+					<div class = "col-lg-3 col-md-6">
+						<div class = "os-animation" data-animation ="fadeInUp">
+							<div class = "pricing-column text-center">
+								<h3> BASIC </h3>
+								<p> Lorem ipsum </p>
+								<div class = "pricing-features">
+									<h4><span class = "item">Domain Names</span>: 1</h4>
+									<h4><span class = "item">Email Addresses</span>: 1</h4>
+									<h4><span class = "item">Hard Drive</span>: 50GB</h4>
+								</div>
+								<h1> 49 € </h1>
+								<a href = "#contact" class = "btn btn-secondary btn-md">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- DRUGI PANEL-->
+					<div class = "col-lg-3 col-md-6">
+						<div class = "os-animation" data-animation ="fadeInUp">
+							<div class = "pricing-column text-center">
+							<div class = "ribbon"> Best Value</div>
+								<h3> PRO </h3>
+								<p> Lorem ipsum </p>
+								<div class = "pricing-features">
+									<h4><span class = "item">Domain Names</span>: 5</h4>
+									<h4><span class = "item">Email Addresses</span>: 5</h4>
+									<h4><span class = "item">Hard Drive</span>: 100GB</h4>
+								</div>
+								<h1> 99 € </h1>
+								<a href = "#contact" class = "btn btn-turquoise btn-md">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- TRETJI PANEL-->
+					<div class = "col-lg-3 col-md-6">
+						<div class = "os-animation" data-animation ="fadeInUp">
+							<div class = "pricing-column text-center">
+								<h3> PREMIUM </h3>
+								<p> Lorem ipsum </p>
+								<div class = "pricing-features">
+									<h4><span class = "item">Domain Names</span>: 10</h4>
+									<h4><span class = "item">Email Addresses</span>: 110</h4>
+									<h4><span class = "item">Hard Drive</span>: 150GB</h4>
+								</div>
+								<h1> 149 € </h1>
+								<a href = "#contact" class = "btn btn-secondary btn-md">Buy Now</a>
+							</div>
+						</div>
+					</div>	
+                    
+                    <div class = "col-lg-3 col-md-6">
+						<div class = "os-animation" data-animation ="fadeInUp">
+							<div class = "pricing-column text-center">
+								<h3> VIP </h3>
+								<p> Lorem ipsum </p>
+								<div class = "pricing-features">
+									<h4><span class = "item">Domain Names</span>: 15</h4>
+									<h4><span class = "item">Email Addresses</span>: 30</h4>
+									<h4><span class = "item">Hard Drive</span>: 10000GB</h4>
+								</div>
+								<h1> 199 € </h1>
+								<a href = "#contact" class = "btn btn-secondary btn-md">Buy Now</a>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+			</div>
+		</div>
+			
+		<!-----------------------------/ End of Pricing Section /----------------------------->
+
+
+
+
+		
+
+
+
+
+		<!-------------------------------/ Start Skills Section /------------------------------>
+		<div id = "skills" class = "offset" >
+			<div class = "jumbotron">
+				<div class = "os-animation" data-animation ="fadeInUp">
+					<h3 class = "heading"> Our Skills </h3>
+					<div class = "heading-underline"></div>
+				</div>
+				
+				<div class = "narrow">
+					<div class = "os-animation" data-animation = "fadeInUp">
+						<div class ="row text-center">
+							<!-- PRVI ŠTEVEC -->
+							<div class = "col-md-6 col-sm-6">
+								<div class = "skill">
+									<i class = "fas fa-clock fa-4x"></i>
+									<h3><span class = "counter">457</span></h3>
+									<p> Lorem ipsum </p>
+								</div>
+							</div>
+							
+							<!-- DRUGI ŠTEVEC -->
+							<div class = "col-md-6 col-sm-6">
+								<div class = "skill">
+									<i class = "fab fa-codepen fa-4x"></i>
+									<h3><span class = "counter">199</span></h3>
+									<p> Lorem ipsum </p>
+								</div>
+							</div>
+                            
+                            <!-- GUMB -->
+                            <div class = "col-md-12 col-sm-6">
+                                <a href = "#contact" class = "btn btn-turquoise btn-md">Contact us</a>
+                            </div>
+							
+							<!-- TRETJI ŠTEVEC -->
+							<div class = "col-md-6 col-sm-6">
+								<div class = "skill">
+									<i class = "fas fa-users fa-4x"></i>
+									<h3><span class = "counter">365</span></h3>
+									<p> Lorem ipsum </p>
+								</div>
+							</div>
+							
+							<!-- ČETRTI ŠTEVEC -->
+							<div class = "col-md-6 col-sm-6">
+								<div class = "skill">
+									<i class = "fas fa-cloud-download-alt fa-4x"></i>
+									<h3><span class = "counter">101</span></h3>
+									<p> Lorem ipsum </p>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div><!-- End of class narrow -->
+				
+			</div>
+		</div>
+
+		<!-------------------------------/ End of Skills Section /------------------------------>
+
+
+
+<!-- ///// Dodaj v HTML datoteko v sekcijo CLIENTS ///// Navodila poslana/objavljena dijakom 24.3.2020 -->
+
+		<!-------------------------------/ Start Clients Section /------------------------------>
+		<div id = "clients" class = "offset">
+			<div class = "row odmik"> <!-- odpremo vrstico, ker bomo v nadaljevanju uporabili BS mrežo, kjer združujemo stolpce -->
+				<div class = "col-12 os-animation" data-animation ="fadeInUp"> <!-- za naslov združimo vseh 12 stolpcev in dodamo animacijo-->
+					<h3 class = "heading"> Our Clients </h3> <!-- naslov -->
+					<div class = "heading-underline"></div> <!-- črta pod naslovom -->
+				</div>
+			
+				<div class = "os-animation" data-animation = "fadeInUp"> <!-- animacija za celoten "vrtiljak" -->
+				
+					<div class = "col-12"> <!-- tokrat izjemoma združimo kar vseh 12 stolpcev - to je posebnost zaradi uporabe owl carousel-->
+						<div id="clients-slider" class="owl-carousel owl-theme"> <!-- kodo preko id="clients-slider" povežemo s kodo, ki se nahaja v datoteki script.js; z razredom class="owl-carousel owl-theme" pa vpokličemo uporabo vrtiljaka owl-carousel z ustreznim izgledom (temo, theme) -->
+							
+							<!-- FIRST CLIENT in clients slider -->
+							<div class="row clients"> <!-- odpremo novo vrstico, saj bomo v nadaljevanju združli 4 stolpce za sliko in 8 stolpcev za tekst-->
+								<div class="col-md-4"> <!-- združimo 4 stolpce - s tem poskrbimo za "prostor" za sliko -->
+									<img src="img/clients/client1.png" alt=""> <!-- dodamo sliko -->
+								</div>
+								<div class="col-md-8"> <!-- združimo 8 stolpcov - s tem poskrbimo za "prostor" za tekst -->
+									<blockquote> <!-- dodamo tekst -->
+										<i class="fas fa-quote-left"></i> <!-- dodamo ikono za navednice iz spletne strani font awesome -->
+										I see 4.BR support as more of a partner to my company than a resource. I can pick up the phone and talk to anyone at any time and the way that they interact with us as a business makes it really simple.
+										<hr class="clients-hr"> <!-- s tem bomo dodali črto med tekstom in imenom stranke, ki naj bi podala izjavo (tekst) -->
+										<cite>&#8212; Eric, Small Business Owner</cite> <!-- dodamo ime in naziv stranke -->
+									</blockquote>
+								</div>
+							</div> <!-- End of row for FIRST CLIENT --> 
+
+							<!-- sedaj zgornjo kodo za eno osebo ustrezno kopiramo in prilepimo še dvakrat - da bomo imeli vse skupaj 3 stranke; kodo na ustreznih mestih prilagodimo -->
+							<!-- SECOND CLIENT in clients slider -->
+							<div class="row clients"> 
+								<div class="col-md-4">
+									<img src="img/clients/client2.png" alt="">
+								</div>
+								<div class="col-md-8">
+									<blockquote>
+										<i class="fas fa-quote-left"></i>
+										The great thing about 4.BR theme is it's not just a design, it's a responsive Bootstrap theme with animation. 4.BR's layout is seamless the smooth parallax scrolling and a pop-up portfolio section for my images.
+										<hr class="clients-hr">
+										<cite>&#8212; Rachel, Professional Photographer</cite>
+									</blockquote>
+								</div>
+							</div> <!-- End of row for SECOND CLIENT --> 	
+
+							<!-- THIRD CLIENT in clients slider -->
+							<div class="row clients">
+								<div class="col-md-4">
+									<img src="img/clients/client3.png" alt="">
+								</div>
+								<div class="col-md-8">
+									<blockquote>
+										<i class="fas fa-quote-left"></i>
+										This theme is fantastic!  It has all of the great website elements found throughout professional templates.  I've learned a lot through developing and designing it while adding my own touches to the design.
+										<hr class="clients-hr">
+										<cite>&#8212; Ricky, Aspiring Developer</cite>
+									</blockquote>
+								</div>
+							</div> <!-- End of row for THIRD CLIENT --> 
+                            
+                            <!-- THIRD CLIENT in clients slider -->
+							<div class="row clients">
+								<div class="col-md-4">
+									<img src="img/clients/client4.png" alt="">
+								</div>
+								<div class="col-md-8">
+									<blockquote>
+										<i class="fas fa-quote-left"></i>
+										Nice.
+										<hr class="clients-hr">
+										<cite>&#8212; Boi, Članex</cite>
+									</blockquote>
+								</div>
+							</div> <!-- End of row for THIRD CLIENT --> 
+							
+						</div> <!--- End Clients Slider -->
+					</div> <!-- End of class = "col-12" -->
+				</div> <!-- End of animation -->
+			</div> <!-- End of row -->
+		</div> <!-- End of id = "clients" -->
+			
+		<!-------------------------------/ End of Clients Section /------------------------------>
+
+
+
+		
+		<!--------------------------------/ Start Contact Section /------------------------------>
+		<div id ="contact" class = "offset">
+			
+		<footer>
+			<div class = "row">
+				<div class ="col-md-5">
+					<img src = "img/logo.png" alt = "" title="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ipsum rutrum, tempor nibh id, aliquam magna.
+					</p>
+					<strong> Our Location </strong>
+					<p>
+					STŠ KP
+					<br> Šmarska cesta 4e 
+					<br> 6000 Koper
+					</p>
+					
+					<strong> Contact Info </strong>
+					<p>
+					(+386) 88-88-888
+					<br> email@4br.com
+					</p>
+				
+					<a href= "#"><i class="fab fa-facebook-square"></i></a>
+					<a href= "#"><i class="fab fa-twitter-square"></i></a>
+					<a href= "#"><i class="fab fa-instagram"></i></a>
+					<a href= "#"><i class="fab fa-reddit-square"></i></a>
+					<a href= "#"><i class="fab fa-linkedin"></i></a>
+				</div>
+				
+				<div class = "col-md-7">
+					<h3> Contact us </h3>
+					
+					<form method = "post" action = "contact.php" id = "contact-form">
+					
+						<div class = "controls">
+						
+                            
+                            <div class = "form-group">
+                                <div class ="form-row">
+                                <div class = "col">
+				                <input type = "text" id = "form_name" name = "name" class = "form-control" placeholder = "Enter your first name." required = "required">
+                                </div>
+                                
+                                <div class = "col">
+                                <input type = "text" id = "form_lastname" name = "lastname" class = "form-control" placeholder = "Enter your last name." required = "required">
+                                </div>
+                                </div>
+                            </div>
+                            
+							<div class = "form-group">
+								<input type = "email" id = "form_email" name = "email" class = "form-control" placeholder = "Enter your email." required = "required">
+							</div>
+							
+							<div class = "form-group">
+								<textarea id = "form_message" name = "message" class = "form-control" placeholder = "Add your message." rows ="4" required = "required">
+								</textarea>
+							</div>
+							
+							<input type = "submit" class = "btn btn-outline-light btn-sm" value ="Send Message">
+						</div>	
+					</form>
+					
+				</div>
+				
+				<hr class = "socket">
+				&copy; 4.BR april 2020
+				
+			</div>
+		</footer>
+		
+		
+		</div>
+
+		<!--------------------------------/ End of Contact Section /------------------------------>
+
+		<!-- Top Scroll -->
+		
+			<a href = "#home" class = "top-scroll">
+				<i class ="fas fa-angle-up"></i>
+			</a>
+		
+		<!-- End of Top Scroll -->
+
+
+		<!-----------------/ VSE JS DATOTEKE (JavaScript Source Files) /----------------->
+	
+		<!-- jQuery library from CDN (Content Delivery Network) -->
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<!-- Popper JS from CDN (Content Delivery Network)-->
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Latest compiled BS4 JavaScript from CDN (Content Delivery Network) -->
+		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<!-- Font Awesome Ikone-->
+		<script src = "https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+			
+		<!--Ostale JS datoteke/knjižnice-->
+		<script src = "js/jquery.waypoints.min.js"></script><!-- Za zakasnitev animacij, ko se pomikamo navzdol po spletni strani => sprožilec animacij-->
+		<script src = "js/waypoints.js"></script><!-- Za zakasnitev animacij, ko se pomikamo navzdol po spletni strani => sprožilec animacij-->
+		<script src = "js/lightbox.js"></script><!-- Za galerijo slik v sekciji PORTFOLIO-->
+		<script src = "js/owl.carousel.js"></script><!-- Za "vrtiljak" v sekciji MEET THE TEAM in sekciji OUR CLIENTS-->
+		<script src = "js/jquery.counterup.js"></script><!-- Za števce številk v sekciji OUR SKILLS-->
+		<script src = "js/validator.js"></script><!-- Za preverjanje izpolnjevanja obrazca v sekciji CONTACT US-->
+		<script src = "js/contact.js"></script><!-- Za kontaktni obrazec v sekciji CONTACT US (navezuje se tudi na PHP datoteko)-->
+		
+		<!-- Naša JS datoteka-->
+		<script src = "script.js"></script>
+		
+		<!---------------/ END OF VSE JS DATOTEKE (JavaScript Source Files) /--------------->
+
+	
+	</body>
+	
+</html>

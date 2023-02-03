@@ -1,0 +1,8 @@
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\obj\Debug\vaja_nastevni1.csproj.AssemblyReference.cache
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\obj\Debug\vaja_nastevni1.csproj.SuggestedBindingRedirects.cache
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\obj\Debug\vaja_nastevni1.csproj.CoreCompileInputs.cache
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\bin\Debug\vaja_nastevni1.exe.config
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\bin\Debug\vaja_nastevni1.exe
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\bin\Debug\vaja_nastevni1.pdb
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\obj\Debug\vaja_nastevni1.exe
+D:\PRO1\vaja_nastevni1\vaja_nastevni1\obj\Debug\vaja_nastevni1.pdb
