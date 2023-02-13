@@ -1,0 +1,8 @@
+D:\PRO11\zanke2\zanke2\obj\Debug\zanke2.csproj.AssemblyReference.cache
+D:\PRO11\zanke2\zanke2\obj\Debug\zanke2.csproj.SuggestedBindingRedirects.cache
+D:\PRO11\zanke2\zanke2\obj\Debug\zanke2.csproj.CoreCompileInputs.cache
+D:\PRO11\zanke2\zanke2\bin\Debug\zanke2.exe.config
+D:\PRO11\zanke2\zanke2\bin\Debug\zanke2.exe
+D:\PRO11\zanke2\zanke2\bin\Debug\zanke2.pdb
+D:\PRO11\zanke2\zanke2\obj\Debug\zanke2.exe
+D:\PRO11\zanke2\zanke2\obj\Debug\zanke2.pdb
