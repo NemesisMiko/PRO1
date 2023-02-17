@@ -1,0 +1,8 @@
+D:\PRO11\ruleta\ruleta\obj\Debug\ruleta.csproj.AssemblyReference.cache
+D:\PRO11\ruleta\ruleta\obj\Debug\ruleta.csproj.SuggestedBindingRedirects.cache
+D:\PRO11\ruleta\ruleta\obj\Debug\ruleta.csproj.CoreCompileInputs.cache
+D:\PRO11\ruleta\ruleta\bin\Debug\ruleta.exe.config
+D:\PRO11\ruleta\ruleta\bin\Debug\ruleta.exe
+D:\PRO11\ruleta\ruleta\bin\Debug\ruleta.pdb
+D:\PRO11\ruleta\ruleta\obj\Debug\ruleta.exe
+D:\PRO11\ruleta\ruleta\obj\Debug\ruleta.pdb

@@ -1,0 +1,15 @@
+D:\PRO11\NovaVaja\NovaVaja\bin\Debug\net6.0\NovaVaja.exe
+D:\PRO11\NovaVaja\NovaVaja\bin\Debug\net6.0\NovaVaja.deps.json
+D:\PRO11\NovaVaja\NovaVaja\bin\Debug\net6.0\NovaVaja.runtimeconfig.json
+D:\PRO11\NovaVaja\NovaVaja\bin\Debug\net6.0\NovaVaja.dll
+D:\PRO11\NovaVaja\NovaVaja\bin\Debug\net6.0\NovaVaja.pdb
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.csproj.AssemblyReference.cache
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.AssemblyInfoInputs.cache
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.AssemblyInfo.cs
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.csproj.CoreCompileInputs.cache
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.dll
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\refint\NovaVaja.dll
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.pdb
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\NovaVaja.genruntimeconfig.cache
+D:\PRO11\NovaVaja\NovaVaja\obj\Debug\net6.0\ref\NovaVaja.dll
