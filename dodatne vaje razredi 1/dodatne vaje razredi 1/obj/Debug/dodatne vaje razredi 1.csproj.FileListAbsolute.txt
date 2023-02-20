@@ -1,0 +1,8 @@
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\bin\Debug\dodatne vaje razredi 1.exe.config
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\bin\Debug\dodatne vaje razredi 1.exe
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\bin\Debug\dodatne vaje razredi 1.pdb
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\obj\Debug\dodatne vaje razredi 1.csproj.AssemblyReference.cache
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\obj\Debug\dodatne vaje razredi 1.csproj.SuggestedBindingRedirects.cache
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\obj\Debug\dodatne vaje razredi 1.csproj.CoreCompileInputs.cache
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\obj\Debug\dodatne vaje razredi 1.exe
+D:\PRO11\dodatne vaje razredi 1\dodatne vaje razredi 1\obj\Debug\dodatne vaje razredi 1.pdb
