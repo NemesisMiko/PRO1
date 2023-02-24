@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dedovanje,absraktni razredi vmesini vaja1", "dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1.csproj", "{D103C70C-7E81-4588-99D0-051542ABA603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D103C70C-7E81-4588-99D0-051542ABA603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D103C70C-7E81-4588-99D0-051542ABA603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D103C70C-7E81-4588-99D0-051542ABA603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D103C70C-7E81-4588-99D0-051542ABA603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {804E5C16-EBC2-403E-9415-4B3D75F16C53}
+	EndGlobalSection
+EndGlobal

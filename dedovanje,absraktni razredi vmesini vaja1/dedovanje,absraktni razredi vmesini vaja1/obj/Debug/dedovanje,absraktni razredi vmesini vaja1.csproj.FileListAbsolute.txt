@@ -1,0 +1,8 @@
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\bin\Debug\dedovanje,absraktni razredi vmesini vaja1.exe.config
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\bin\Debug\dedovanje,absraktni razredi vmesini vaja1.exe
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\bin\Debug\dedovanje,absraktni razredi vmesini vaja1.pdb
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\obj\Debug\dedovanje,absraktni razredi vmesini vaja1.csproj.AssemblyReference.cache
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\obj\Debug\dedovanje,absraktni razredi vmesini vaja1.csproj.SuggestedBindingRedirects.cache
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\obj\Debug\dedovanje,absraktni razredi vmesini vaja1.csproj.CoreCompileInputs.cache
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\obj\Debug\dedovanje,absraktni razredi vmesini vaja1.exe
+D:\PRO11\dedovanje,absraktni razredi vmesini vaja1\dedovanje,absraktni razredi vmesini vaja1\obj\Debug\dedovanje,absraktni razredi vmesini vaja1.pdb

@@ -1,0 +1,8 @@
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\obj\Debug\razredi vaja1 krog.csproj.AssemblyReference.cache
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\obj\Debug\razredi vaja1 krog.csproj.SuggestedBindingRedirects.cache
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\obj\Debug\razredi vaja1 krog.csproj.CoreCompileInputs.cache
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\bin\Debug\razredi vaja1 krog.exe.config
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\bin\Debug\razredi vaja1 krog.exe
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\bin\Debug\razredi vaja1 krog.pdb
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\obj\Debug\razredi vaja1 krog.exe
+D:\PRO11\razredi vaja1 krog\razredi vaja1 krog\obj\Debug\razredi vaja1 krog.pdb

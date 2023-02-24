@@ -1,0 +1,8 @@
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\bin\Debug\vaje razredi liki2.exe.config
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\bin\Debug\vaje razredi liki2.exe
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\bin\Debug\vaje razredi liki2.pdb
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\obj\Debug\vaje razredi liki2.csproj.AssemblyReference.cache
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\obj\Debug\vaje razredi liki2.csproj.SuggestedBindingRedirects.cache
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\obj\Debug\vaje razredi liki2.csproj.CoreCompileInputs.cache
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\obj\Debug\vaje razredi liki2.exe
+D:\PRO11\vaje razredi liki2\vaje razredi liki2\obj\Debug\vaje razredi liki2.pdb

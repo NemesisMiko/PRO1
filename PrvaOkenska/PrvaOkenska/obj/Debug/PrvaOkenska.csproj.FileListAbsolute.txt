@@ -1,0 +1,11 @@
+D:\PRO11\PrvaOkenska\PrvaOkenska\bin\Debug\PrvaOkenska.exe.config
+D:\PRO11\PrvaOkenska\PrvaOkenska\bin\Debug\PrvaOkenska.exe
+D:\PRO11\PrvaOkenska\PrvaOkenska\bin\Debug\PrvaOkenska.pdb
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.csproj.AssemblyReference.cache
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.csproj.SuggestedBindingRedirects.cache
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.Kalkulator.resources
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.Properties.Resources.resources
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.csproj.GenerateResource.cache
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.csproj.CoreCompileInputs.cache
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.exe
+D:\PRO11\PrvaOkenska\PrvaOkenska\obj\Debug\PrvaOkenska.pdb

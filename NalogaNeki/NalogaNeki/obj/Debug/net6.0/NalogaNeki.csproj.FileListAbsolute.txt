@@ -1,0 +1,5 @@
+D:\PRO11\NalogaNeki\NalogaNeki\obj\Debug\net6.0\NalogaNeki.csproj.AssemblyReference.cache
+D:\PRO11\NalogaNeki\NalogaNeki\obj\Debug\net6.0\NalogaNeki.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRO11\NalogaNeki\NalogaNeki\obj\Debug\net6.0\NalogaNeki.AssemblyInfoInputs.cache
+D:\PRO11\NalogaNeki\NalogaNeki\obj\Debug\net6.0\NalogaNeki.AssemblyInfo.cs
+D:\PRO11\NalogaNeki\NalogaNeki\obj\Debug\net6.0\NalogaNeki.csproj.CoreCompileInputs.cache
